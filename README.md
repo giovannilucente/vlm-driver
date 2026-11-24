@@ -1,9 +1,8 @@
 # VLM maneuver decision demo
 
 This repository contains a small Python demo that uses the Hugging Face
-LLaVA 1.5 7B vision-language model to choose a driving maneuver from an image.
-The prompt asks the model to describe the scene from the driver's perspective
-and choose between going and stopping.
+LLaVA 1.5 7B vision-language model (VLM) to choose a driving maneuver from an image.
+The VLM interprets the frontal camera view, describes the road scene, and recommends whether to go or stop.
 
 ## Files
 
