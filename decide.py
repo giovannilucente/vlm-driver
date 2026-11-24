@@ -146,7 +146,7 @@ def main() -> None:
     decision, raw_image = decider.decide(image_file)
     print("Decision:", decision)
 
-    output_file = "scene1_decision.png"
+    output_file = "results/scene1_decision.png"
     decider.save_visualization(decision, raw_image, output_file)
     print(f"Saved visualization to: {output_file}")
 

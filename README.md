@@ -11,7 +11,14 @@ The VLM interprets the frontal camera view, describes the road scene, and recomm
 - `decide.py` defines `ManeuverDecider`, which loads the model and exposes
   `decide()` for image-based inference. Its `main()` function is a runnable
   example with a sample image path.
-- `llava_decision.png` is an example visualization of a model decision.
+- `results/scene1_decision.png` is an example visualization of a model decision.
+
+## Example result
+
+This example shows the frontal camera view alongside LLaVA's scene description
+and go/stop recommendation:
+
+![Scene 1 with LLaVA's driving decision](results/scene1_decision.png)
 
 ## Clone the repository
 
